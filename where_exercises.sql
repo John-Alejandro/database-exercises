@@ -1,4 +1,4 @@
-USE employees_db;
+USE employees;
 
 # Create a file named where_exercises.sql. Make sure to use the employees database before you begin.
 # 2 Find all employees with first names 'Irena', 'Vidya', or 'Maya' — 709 rows (Hint: Use IN).

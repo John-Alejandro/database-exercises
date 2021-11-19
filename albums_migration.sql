@@ -20,3 +20,6 @@ CREATE TABLE IF NOT EXISTS albums(
 -- release_date — integer representing year record was released
 -- sales — floating point value for number of records sold (in millions)
 -- genre — string for storing the record's genre(s)
+
+ALTER TABLE albums
+ADD UNIQUE (artist,name);
